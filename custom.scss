@@ -444,11 +444,6 @@ body {
   font-size: 4.25rem;
 }
 
-/* Fix grid on IE */
-.g-grid {
-    flex-flow: inherit;
-}
-
 /****************************************** Mobile ********************************************/
 @media (max-width: 767px) {
     .headline h1 {
