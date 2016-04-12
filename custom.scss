@@ -1,0 +1,502 @@
+/*********** Custom Icon Set ***********/
+@charset "UTF-8";
+
+@font-face {
+  font-family: "seawall-dock-inspection";
+  src:url("../fonts/seawall-dock-inspection.eot");
+  src:url("../fonts/seawall-dock-inspection.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/seawall-dock-inspection.woff") format("woff"),
+      url("../fonts/seawall-dock-inspection.ttf") format("truetype"),
+      url("../fonts/seawall-dock-inspection.svg#seawall-dock-inspection") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "seawall-dock-inspection" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "seawall-dock-inspection" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* to make readmore icons inline */
+[class^="icon-"], [class*=" icon-"] {
+    width: auto !important;
+}
+
+.icon-ship:before {content: "\62";}
+.icon-tint:before {content: "\63";}
+.icon-waterdrop:before {content: "\64";}
+.icon-water:before {content: "\65";}
+.icon-air:before {content: "\66";}
+.icon-ios-rainy-outline:before {content: "\67";}
+.icon-ios-rainy:before {content: "\68";}
+.icon-weixin:before {content: "\69";}
+.icon-android-boat:before {content: "\6a";}
+.icon-android-drafts:before {content: "\6b";}
+.icon-android-chat:before {content: "\6c";}
+.icon-android-pin:before {content: "\6d";}
+.icon-android-textsms:before {content: "\6e";}
+.icon-chatbox:before {content: "\6f";}
+.icon-chatbox-working:before {content: "\70";}
+.icon-chatboxes:before {content: "\71";}
+.icon-chatbubble:before {content: "\72";}
+.icon-chatbubble-working:before {content: "\73";}
+.icon-chatbubbles:before {content: "\74";}
+.icon-ios-people:before {content: "\75";}
+.icon-ios-people-outline:before {content: "\76";}
+.icon-person-stalker:before {content: "\77";}
+.icon-ribbon-b:before {content: "\78";}
+.icon-organization:before {content: "\79";}
+.icon-location:before {content: "\7a";}
+.icon-ship-1:before {content: "\41";}
+.icon-contacts-social:before {content: "\42";}
+.icon-map:before {content: "\43";}
+.icon-angies-list-1:before {content: "\44";}
+.icon-dam:before {content: "\61";}
+.icon-ferry:before {content: "\45";}
+.icon-anchor:before {content: "\46";}
+.icon-harbor:before {content: "\47";}
+.icon-anchor-1:before {content: "\48";}
+.icon-book:before {content: "\49";}
+.icon-book-1:before {content: "\4a";}
+.icon-book-open:before {content: "\4b";}
+.icon-book-open-1:before {content: "\4c";}
+.icon-content-14:before {content: "\4d";}
+.icon-call:before {content: "\4e";}
+.icon-call-phone:before {content: "\4f";}
+.icon-home-2:before {content: "\54";}
+.icon-phone:before {content: "\51";}
+.icon-checklist:before {content: "\50";}
+.icon-clipboard:before {content: "\52";}
+.icon-check-clipboard-1:before {content: "\53";}
+.icon-book-bookmark:before {content: "\55";}
+.icon-book-2:before {content: "\56";}
+.icon-clock:before {content: "\57";}
+.icon-bridge:before {content: "\58";}
+.icon-ribbon:before {content: "\59";}
+.icon-checklist-1:before {content: "\5a";}
+.icon-agreement:before {content: "\30";}
+.icon-agreement-1:before {content: "\31";}
+.icon-checklist-2:before {content: "\32";}
+.icon-handshake:before {content: "\33";}
+.icon-handshake-1:before {content: "\34";}
+.icon-bookmark:before {content: "\35";}
+.icon-sdi-logo-icon:before {content: "\36";}
+
+.ic {
+    /*display: block;*/
+    font-family: seawall-dock-inspection;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    text-rendering: auto;
+}
+.ic.icinline {
+    display: inline;
+}
+#g-overlay .g-main-nav .g-toplevel > li > .g-menu-item-container i.ic {
+    display: block;
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    opacity: 0.75;
+}
+
+/* Because the chevron icon is broken on readmores */
+.icon-chevron-right::before, .icon-rightarrow::before, .icon-arrow-right::before {
+    content: "\49";
+    display: inline;
+}
+
+/* Font Awesome custimizations */
+.fa-ul {
+    margin-left: 0;
+}
+[class^="icon-"], [class*=" icon-"] {
+    width: 100%;
+    height: inherit;
+    line-height: inherit;
+}
+
+/* Custom navigation */
+#g-overlay .g-main-nav .g-toplevel > li > .g-menu-item-container{
+    border: 0;
+    background: #f2f2f2 none repeat scroll 0 0;
+    color: #1a4568;
+}
+#g-overlay .g-main-nav .g-toplevel > li > .g-menu-item-container:hover {
+    border-bottom: 5px solid #010102;
+    transform: translate3d(0px, -1rem, 0px);
+    background: #f2f2f2 none repeat scroll 0 0;
+    color: #1a4568;
+}
+#g-overlay .g-main-nav .g-toplevel > li > .g-menu-item-container a{
+    color: #1a4568;
+}
+.overlay .g-main-nav .g-toplevel > li:hover > .g-menu-item-container, #g-overlay .g-main-nav .g-toplevel > li.active > .g-menu-item-container{
+    color: #888;
+}
+
+/* Not animated contact menu items */
+/*#g-overlay .g-blockcontent-subcontent-block:hover .g-blockcontent-subcontent-block-content {
+    border-bottom: 5px solid transparent;
+    transform: none;
+}*/
+
+/****** Video text overlay customizations ******/
+/* Centers text on video */
+.g-flexslider-slideshow-item-overlay {
+    top: 50%;
+    transform: translateY(50%);
+}
+/* Lowers the object that hides the 2nd line of overlay text */
+.g-flexslider-item-container.g-flexslider-slideshow-item-container.clone {
+    padding-top: 50px;
+}
+/* Text Overlay customizations */
+.g-flexslider-slideshow .g-flexslider-slideshow-item-title {
+    text-transform: none; /* Sentence case */
+}
+.g-flexslider-slideshow .g-flexslider-slideshow-item-desc {
+    font-size: 1.4rem; /* smaller font size */
+}
+
+/* Custom BG Above position Info List particle */
+.seawall.g-infolist.g-1cols.g-layercontent.noborder {
+    background: linear-gradient(rgba(49, 118, 214, 0.6), rgba(49, 118, 214, 0.6)), url("/images/backgrounds/damagedwall_575x431.jpg") no-repeat center;
+    /*background-size: 575px 431px;*/
+    background-size: 100%;
+    color:#fff;
+}
+.seawall .g-infolist-item-title {
+    border-bottom: 2px solid;
+    padding-top: 45%;
+}
+.seawall .g-infolist-textstyle-header .g-infolist-item-desc, .g-infolist-textstyle-header .g-infolist-item-title, .g-infolist-textstyle-header .g-infolist-tags, .g-infolist-textstyle-header .g-infolist-tags .g-tag {
+    font-weight: normal;
+}
+.seawall .g-infolist-textstyle-header .g-infolist-item-desc {
+    font-size: small;
+    line-height: normal;
+    opacity: 1;
+    padding-top: 3px;
+}
+
+.dock.g-infolist.g-1cols.g-layercontent.noborder {
+    background: linear-gradient(rgba(49, 118, 214, 0.6), rgba(49, 118, 214, 0.6)), url("/images/backgrounds/damageddock_575x431.jpg") no-repeat center;
+    background-size: 100%;
+    color:#fff;
+}
+.dock .g-infolist-item-title {
+    border-bottom: 2px solid;
+    padding-top: 45%;
+    
+}
+.dock .g-infolist-textstyle-header .g-infolist-item-desc, .g-infolist-textstyle-header .g-infolist-item-title, .g-infolist-textstyle-header .g-infolist-tags, .g-infolist-textstyle-header .g-infolist-tags .g-tag {
+    font-weight: normal;
+}
+.dock .g-infolist-textstyle-header .g-infolist-item-desc {
+    font-size: small;
+    line-height: normal;
+    opacity: 1;
+    padding-top: 3px;
+}
+
+.g-block.fp-above.size-50 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Adds a line under the title - Custom classes */
+.titleline {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-bottom: 2px #ddd solid;
+}
+.titleline.g-infolist-item-title {
+    border-bottom: 2px solid #fff;
+}
+.titleline .g-textpromo {
+    padding-bottom: 40px;
+}
+
+/* Grid Content Edits */
+.whitegrid .g-gridcontent .g-gridcontent-title-style-1 .g-gridcontent-item-content {
+    background-color: #fff;
+    color: inherit;
+    border-top: none;
+}
+.whitegrid .g-gridcontent .g-gridcontent-item-text2 {
+    font-size: 1.5rem;
+}
+/* More custom classes */
+#g-footer.storm {
+    background: linear-gradient(rgba(26, 69, 104, 0.6), rgba(26, 69, 104, 0.6)), url("/images/backgrounds/key-west-81664-crop.jpg") no-repeat center; /* 1A4568 */
+    background-size: 100%;
+    height: 500px;
+}
+.storm .g-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.button.button-white.button-3, .button.button-white.button-4 {
+    border: 2px solid #ffffff;
+    color: #ffffff !important;
+}
+.button.button-white.button-3, .button.button-white.button-4 {
+    background: transparent none repeat scroll 0 0;
+}
+.button.button-white.button-3, .button.button-white.button-4 {
+    background: transparent none repeat scroll 0 0;
+}
+.button.button-white {
+    background: #ffffff none repeat scroll 0 0;
+}
+.small .g-blockcontent-description {
+    font-size: 12px;
+    text-align: center;
+}
+.button.button-white.button-3, .button.button-white.button-4:hover {
+    border: 2px solid #ccc;
+    color: #ccc !important;
+}
+
+/* Info List Title Font Weight */
+.g-infolist .g-infolist-item-title {
+    font-weight: 600;
+}
+
+/* Bottom lists, not inline */
+/*#g-copyright .g-toplevel {
+    display: -moz-groupbox;
+}
+#g-copyright .g-social.g-social {
+    display: -moz-groupbox;
+}*/
+
+/* Not caps */
+.g-promo {
+    text-transform: none;
+}
+
+/* Makes logo the same size as the menu text on non-homepage pages */
+.smlogo.g-logo > img {
+    height: 16px;
+}
+
+/* Adds bottom border to articles in category blog */
+.items-row.cols-1.row-fluid.clearfix {
+    border-bottom: 2px solid #ddd;
+}
+
+/* Custom readmore button */
+.readmore .btn {
+    border-radius: 0;
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #1A4568;
+    color: #1A4568 !important;
+    display: inline-block;
+    font-family: "sourcesanspro","Helvetica","Tahoma","Geneva","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    padding: 0.5rem 1.5rem;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    vertical-align: middle;
+}
+.readmore .btn:hover {
+    border-radius: 0;
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #0b1c2b;
+    color: #0b1c2b !important;
+    display: inline-block;
+    font-family: "sourcesanspro","Helvetica","Tahoma","Geneva","Arial",sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem;
+    padding: 0.5rem 1.5rem;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    vertical-align: middle;
+}
+
+/* Aligns title center */
+.g-content .g-blockcontent-subcontent-block-content h4 {
+    text-align: center;
+}
+/* Aligns grid content justified */
+.g-gridcontent-item-desc {
+    text-align: justify;
+}
+/* Make title links for promo content inherited */
+#g-extension .g-infolist-item-title  a {
+    color: inherit;
+}
+/****** Makes text justified ******/
+body {
+    text-align: justified;
+}
+/* Articles */
+.item.column-1 {
+    text-align: justify;
+}
+
+/*********************** Custom Video BG ***************************/
+/* Source: http://jsfiddle.net/mgmilcher/8R7Xx/ */
+.homepage-hero-module {
+  border-right: none;
+  border-left: none;
+  position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+  display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display: block !important;
+}
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+}
+.video-container .poster img {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+.video-container .title-container {
+  z-index: 1000;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.video-container .description .inner {
+  font-size: 1em;
+  width: 45%;
+  margin: 0 auto;
+}
+.video-container .link {
+  position: absolute;
+  bottom: 3em;
+  width: 100%;
+  text-align: center;
+  z-index: 1001;
+  font-size: 2em;
+  color: #fff;
+}
+.video-container .link a {
+  color: #fff;
+}
+.video-container video {
+  position: relative; /* absolute */
+  z-index: 0;
+  bottom: 0;
+}
+.video-container video.fillWidth {
+  width: 100%;
+}
+.headline h1 {
+  font-size: 4.25rem;
+}
+
+/* Fix grid on IE */
+.g-grid {
+    flex-flow: inherit;
+}
+
+/****************************************** Mobile ********************************************/
+@media (max-width: 767px) {
+    .headline h1 {
+        /* Make headline text small on mobile */
+        font-size: 26px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        /* Zero bottom margin of header on mobile */
+        margin: 0.75rem 0 0rem;
+    }
+    .video-container .description .inner {
+        /* Make header body text small and fit on mobile */
+        font-size: 1em;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .g-logo > img {
+        /* Shrink the size of the logo on mobile */
+        width: 75%;
+    }
+    .seawall.g-infolist.g-1cols.g-layercontent.noborder {
+        /* Make the bg fill the space on mobile */
+        background-size: auto;
+    }
+    .dock.g-infolist.g-1cols.g-layercontent.noborder {
+        /* Make the bg fill the space on mobile */
+        background-size: auto;
+    }
+    #g-footer.storm {
+        /* Make the bg fill the space on mobile */
+        background-size: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 971px) {
+    .seawall .g-infolist-item-title {
+        /* Remove excess padding on iPad */
+        padding-top: 39%;
+    }
+    .dock .g-infolist-item-title {
+        /* Remove excess padding on iPad */
+        padding-top: 39%;
+    }
+    .g-infolist-textstyle-header .g-infolist-item-title {
+        /* Make header small on Mobile */
+        font-size: 26px;
+    }
+    #g-footer.storm {
+        /* Make the bg fill the space on mobile */
+        background-size: auto;
+    }
+}
